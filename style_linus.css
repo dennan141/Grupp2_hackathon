@@ -1,0 +1,34 @@
+#black{
+    background-color: rgb(92, 92, 97);
+    color: white;  
+}
+
+.topnavL
+{
+    background-color: black;
+    overflow: hidden;
+}
+
+.topnavL a {
+    float: left;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnavL a:hover {
+    background-color:orange;
+    color: black;
+}
+
+.topnavL a.active {
+    background-color: lightcoral;
+    color: black;
+}
+
+h1.name{
+    text-align: center;
+    background-color: purple;
+}
