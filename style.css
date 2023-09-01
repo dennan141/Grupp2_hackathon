@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -17,10 +18,24 @@ h1 {
 
 #img {
     text-align: center;
+
+
+/********************** Linus css *************************/
+  body.black{
+    background-color: rgb(92, 92, 97);
+    color: white;  
+}
+
+ul.nav{
+    list-style-type: none;
+    list-style: none;
+    display: inline;
+
     margin: 0;
     padding: 0;
 }
 
+  
 #ul_center {
     text-align: center;
     list-style-type: none;
@@ -55,4 +70,36 @@ ul.menu {
 
 li.menu {
     float: left;
+}
+
+.topnavL
+{
+    background-color: black;
+    overflow: hidden;
+}
+
+.topnavL a {
+    float: left;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnavL a:hover {
+    background-color:orange;
+    color: black;
+}
+
+.topnavL a.active {
+    background-color: lightcoral;
+    color: black;
+}
+
+
+
+h1.name{
+    text-align: center;
+    background-color: purple;
 }
