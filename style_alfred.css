@@ -1,0 +1,25 @@
+h1{
+    color: black; 
+    font-style: bold; 
+    font-size: 40px; 
+    font-family: verdana;
+}
+#mydiv{ 
+    text-align: center;
+}
+body
+{
+background-color: peachpuff;
+}
+#img1  
+{
+    
+    width: 80%;
+    height: auto;
+}
+ul{
+
+    font-family:cochin;
+
+    font-size: 20px;
+}
