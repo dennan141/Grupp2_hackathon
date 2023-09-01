@@ -1,4 +1,25 @@
 
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(255,255,255);
+    background: linear-gradient(131deg, rgba(255,255,255,1) 39%, rgb(136, 136, 136) 100%); 
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+    color: gray;
+    margin: 2em, 2em;
+    padding: 0;
+}
+
+#img {
+    text-align: center;
+
+
 /********************** Linus css *************************/
   body.black{
     background-color: rgb(92, 92, 97);
@@ -9,8 +30,46 @@ ul.nav{
     list-style-type: none;
     list-style: none;
     display: inline;
+
     margin: 0;
     padding: 0;
+}
+
+  
+#ul_center {
+    text-align: center;
+    list-style-type: none;
+}
+
+a {
+    display: block;
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+}
+
+a:hover {
+    color: lightgray;
+}
+
+ul.menu {
+    color: gray;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li.menu {
+    float: left;
 }
 
 .topnavL
